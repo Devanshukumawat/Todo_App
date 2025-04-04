@@ -1,0 +1,28 @@
+.text_large {
+    font-size: 25px;
+  }
+  .text_small {
+    font-size: 20px;
+  }
+
+  .todohero_section {
+  border: 1px solid #c2b39a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 400px;
+  padding: 5px;
+  border-radius: 11px;
+}
+.todohero_section div:last-child {
+  background-color: #88ab33;
+  width: 100px;
+  height: 100px;
+  border-radius: 75px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
